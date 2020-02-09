@@ -1,30 +1,32 @@
 <?php
 
-class Post extends Model {
+class User extends Model {
 
-    private $table = 'posts';
+    private $table = 'users';
 
-    public function create($title, $text) {
-        $query = 'INSERT INTO ' . $this->table . ' (title, text, created_at) 
-                  VALUES (:title, :text, :created_at)';
+    public function create($username, $email, $password) {
+        $query = 'INSERT INTO ' . $this->table . ' (username, email, password, created_at) 
+                  VALUES (:username, :email, :password, :created_at)';
         $connection = Database::getConnection()->prepare($query);
         $params = [
-            'title'      => $title,
-            'text'       => $text,
+            'username'   => $username,
+            'email'      => $email,
+            'password'   => $password,
             'created_at' => date('Y-m-d H:i:s'),
         ];
 
         return $connection->execute($params);
     }
 
-    public function edit($id, $title, $text) {
-        $query = 'UPDATE ' . $this->table . ' SET title = :title, text = :text, updated_at = :updated_at 
+    public function edit($id, $username, $email, $password) {
+        $query = 'UPDATE ' . $this->table . ' SET username = :username, email = :email, password = :password, updated_at = :updated_at 
                   WHERE id = :id';
         $connection = Database::getConnection()->prepare($query);
         $params = [
             'id'         => $id,
-            'title'      => $title,
-            'text'       => $text,
+            'username'   => $username,
+            'email'      => $email,
+            'password'   => $password,
             'updated_at' => date('Y-m-d H:i:s'),
         ];
 

@@ -21,11 +21,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/views/users" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/views/users" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/config" />
     </key>
@@ -42,7 +46,7 @@
       <updated>1581083448146</updated>
       <workItem from="1581083452640" duration="908000" />
       <workItem from="1581251316051" duration="959000" />
-      <workItem from="1581252835168" duration="13201000" />
+      <workItem from="1581252835168" duration="15995000" />
     </task>
     <servers />
   </component>
@@ -50,23 +54,23 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="184" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581265546459">
+    <state x="184" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581279150998">
       <screen x="0" y="23" width="1440" height="798" />
     </state>
-    <state x="184" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.798@0.23.1440.798" timestamp="1581265546459" />
+    <state x="184" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.798@0.23.1440.798" timestamp="1581279150998" />
     <state x="482" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1581260268404">
       <screen x="0" y="23" width="1440" height="798" />
     </state>
     <state x="482" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.798@0.23.1440.798" timestamp="1581260268404" />
-    <state x="563" y="262" key="NewPhpClassDialog" timestamp="1581262070750">
+    <state x="563" y="262" key="NewPhpClassDialog" timestamp="1581279613337">
       <screen x="0" y="23" width="1440" height="798" />
     </state>
-    <state x="563" y="262" key="NewPhpClassDialog/0.23.1440.798@0.23.1440.798" timestamp="1581262070750" />
+    <state x="563" y="262" key="NewPhpClassDialog/0.23.1440.798@0.23.1440.798" timestamp="1581279613337" />
     <state x="-3090" y="171" key="NewPhpClassDialog/0.23.1440.877/-3840.-121.1920.977/-1920.-121.1920.1057@-3840.-121.1920.977" timestamp="1581083979748" />
-    <state x="532" y="348" key="NewPhpFileDialog" timestamp="1581267890383">
+    <state x="532" y="348" key="NewPhpFileDialog" timestamp="1581280436165">
       <screen x="0" y="23" width="1440" height="798" />
     </state>
-    <state x="532" y="348" key="NewPhpFileDialog/0.23.1440.798@0.23.1440.798" timestamp="1581267890383" />
+    <state x="532" y="348" key="NewPhpFileDialog/0.23.1440.798@0.23.1440.798" timestamp="1581280436165" />
     <state x="385" y="145" width="670" height="676" key="search.everywhere.popup" timestamp="1581267865246">
       <screen x="0" y="23" width="1440" height="798" />
     </state>
