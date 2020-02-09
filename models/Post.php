@@ -3,14 +3,13 @@
 class Post extends Model {
 
     public function create($title, $text) {
-        $query = 'INSERT INTO posts (title, text, created_at, updated_at) 
-                  VALUES (:title, :text, :created_at, :updated_at)';
+        $query = 'INSERT INTO posts (title, text, created_at) 
+                  VALUES (:title, :text, :created_at)';
         $connection = Database::getConnection()->prepare($query);
         $params = [
             'title'      => $title,
             'text'       => $text,
             'created_at' => date('Y-m-d H:i:s'),
-            'updated_at' => null,
         ];
 
         return $connection->execute($params);

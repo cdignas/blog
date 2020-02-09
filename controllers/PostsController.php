@@ -40,4 +40,17 @@ class PostsController extends Controller {
         $this->render('edit');
     }
 
+    public function create() {
+        if (isset($_POST['title']) && !empty($_POST['title']) && isset($_POST['text']) && !empty($_POST['text'])) {
+            require(ROOT . 'models/Post.php');
+            $post = new Post();
+
+            if ($post->create($_POST['title'], $_POST['text'])) {
+                header("Location: " . WEBROOT . "posts/index");
+            }
+        }
+
+        $this->render("create");
+    }
+
 }
